@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "DocumentationManager.WebAPI.Controllers.DocumentationLinksController",
+    "Method": "GetDocumentationLinks",
+    "RelativePath": "api/DocumentationLinks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentationManager.WebAPI.Controllers.DocumentationLinksController",
+    "Method": "GetDocumentationLinks",
+    "RelativePath": "api/DocumentationLinks/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DocumentationManager.WebAPI.Model.DocumentationLink",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

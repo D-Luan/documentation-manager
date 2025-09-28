@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PROJETOS\\DocumentationManager\\src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj": {}
+    "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj": {}
   },
   "projects": {
-    "C:\\PROJETOS\\DocumentationManager\\src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj": {
+    "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PROJETOS\\DocumentationManager\\src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj",
+        "projectUniqueName": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj",
         "projectName": "DocumentationManager.Entities",
-        "projectPath": "C:\\PROJETOS\\DocumentationManager\\src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj",
+        "projectPath": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj",
         "packagesPath": "C:\\Users\\Luan\\.nuget\\packages\\",
-        "outputPath": "C:\\PROJETOS\\DocumentationManager\\src\\DocumentationManager.Entities\\obj\\",
+        "outputPath": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
