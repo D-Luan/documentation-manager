@@ -1,16 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using DocumentationManager.WebAPI.Data;
+using DocumentationManager.WebAPI.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<DocumentationContext>(opt =>
-    opt.UseNpgsql(builder.Configuration.GetConnectionString("DocumentationManagerDb"))
-);
+builder.Services.ConfigurePersistence(builder.Configuration);
 
 var app = builder.Build();
 

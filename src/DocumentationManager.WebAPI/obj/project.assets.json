@@ -1026,6 +1026,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "DocumentationManager.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/DocumentationManager.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DocumentationManager.Entities.dll": {}
+        }
       }
     }
   },
@@ -3269,10 +3279,16 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "DocumentationManager.Entities/1.0.0": {
+      "type": "project",
+      "path": "../DocumentationManager.Entities/DocumentationManager.Entities.csproj",
+      "msbuildProject": "../DocumentationManager.Entities/DocumentationManager.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "DocumentationManager.Entities >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.9",
       "Microsoft.EntityFrameworkCore >= 9.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.9",
@@ -3313,7 +3329,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\PROJETOS\\DocumentationManager\\src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj": {
+              "projectPath": "C:\\PROJETOS\\DocumentationManager\\src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
