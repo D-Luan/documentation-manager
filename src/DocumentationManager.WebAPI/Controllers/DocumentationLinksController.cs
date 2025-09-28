@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using DocumentationManager.WebAPI.Model;
 using DocumentationManager.WebAPI.Data;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using DocumentationManager.WebAPI.Dtos;
 
 namespace DocumentationManager.WebAPI.Controllers;
 
@@ -47,5 +48,23 @@ public class DocumentationLinksController : ControllerBase
         }
 
         return Ok(documentationLink);
+    }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateLink(int id, UpdateLinkDto linkDto)
+    {
+        var documentationLink = await _context.DocumentationLinks.FindAsync(id);
+        if (documentationLink == null)
+        {
+            return NotFound();
+        }
+
+        documentationLink.TechnologyName = linkDto.TechnologyName;
+        documentationLink.Url = linkDto.Url;
+        documentationLink.PersonalNotes = linkDto.PersonalNotes;
+
+        await _context.SaveChangesAsync();
+
+        return NoContent();
     }
 }

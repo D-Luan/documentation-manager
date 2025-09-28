@@ -11,7 +11,7 @@
   },
   {
     "ContainingType": "DocumentationManager.WebAPI.Controllers.DocumentationLinksController",
-    "Method": "GetDocumentationLinks",
+    "Method": "GetDocumentationLinkById",
     "RelativePath": "api/DocumentationLinks/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -34,5 +34,26 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "DocumentationManager.WebAPI.Controllers.DocumentationLinksController",
+    "Method": "UpdateLink",
+    "RelativePath": "api/DocumentationLinks/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "linkDto",
+        "Type": "DocumentationManager.WebAPI.Dtos.UpdateLinkDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

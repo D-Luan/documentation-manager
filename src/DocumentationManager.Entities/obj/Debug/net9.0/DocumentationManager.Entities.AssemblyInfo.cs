@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DocumentationManager.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7f9be5ab8345e24aa828278ea2ab2ce7f2420e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce192b2c126087016a799cf6caa8230e91ad611b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DocumentationManager.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DocumentationManager.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
