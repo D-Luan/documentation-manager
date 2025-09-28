@@ -23,45 +23,55 @@ public class DocumentationLinksController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetDocumentationLinks()
+    public async Task<ActionResult<List<DocumentationLinkDto>>> GetDocumentationLinks()
     {
-        try
-        {
-            var links = await _context.DocumentationLinks.ToListAsync();
+        var linksDto = await _context.DocumentationLinks
+            .Select(link => new DocumentationLinkDto 
+            {
+                Id = link.Id,
+                TechnologyName = link.TechnologyName,
+                Url = link.Url,
+                Category = link.Category
+            })
+            .ToListAsync();
 
-            return Ok(links);
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(500, $"Ocorreu um erro interno no servidor: {ex.Message}");
-        }
+        return Ok(linksDto);
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<DocumentationLink>> GetDocumentationLinkById(int id)
+    public async Task<ActionResult<DocumentationLinkDto>> GetDocumentationLinkById(int id)
     {
-        var documentationLink = await _context.DocumentationLinks.FindAsync(id);
+        var linksDto = await _context.DocumentationLinks
+            .Where(link => link.Id == id)
+            .Select(link => new DocumentationLinkDto
+            {
+                Id = link.Id,
+                TechnologyName = link.TechnologyName,
+                Url = link.Url,
+                Category = link.Category
+            })
+            .FirstOrDefaultAsync();
 
-        if(documentationLink == null)
+        if (linksDto == null)
         {
             return NotFound();
         }
 
-        return Ok(documentationLink);
+        return Ok(linksDto);
     }
 
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateLink(int id, UpdateLinkDto linkDto)
     {
-        var documentationLink = await _context.DocumentationLinks.FindAsync(id);
-        if (documentationLink == null)
+        var linksDto = await _context.DocumentationLinks.FindAsync(id);
+        if (linksDto == null)
         {
             return NotFound();
         }
 
-        documentationLink.TechnologyName = linkDto.TechnologyName;
-        documentationLink.Url = linkDto.Url;
-        documentationLink.PersonalNotes = linkDto.PersonalNotes;
+        linksDto.TechnologyName = linkDto.TechnologyName;
+        linksDto.Url = linkDto.Url;
+        linksDto.PersonalNotes = linkDto.PersonalNotes;
 
         await _context.SaveChangesAsync();
 

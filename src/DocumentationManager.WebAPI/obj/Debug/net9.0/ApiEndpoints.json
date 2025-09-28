@@ -7,7 +7,17 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DocumentationManager.WebAPI.Dtos.DocumentationLinkDto, DocumentationManager.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "DocumentationManager.WebAPI.Controllers.DocumentationLinksController",
@@ -25,7 +35,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "DocumentationManager.WebAPI.Model.DocumentationLink",
+        "Type": "DocumentationManager.WebAPI.Dtos.DocumentationLinkDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
