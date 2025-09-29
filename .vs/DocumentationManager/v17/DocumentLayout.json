@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\dev\\repos\\documentation-manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.webapi\\controllers\\documentationlinkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|solutionrelative:src\\documentationmanager.webapi\\controllers\\documentationlinkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|solutionrelative:src\\documentationmanager.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|solutionrelative:src\\documentationmanager.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B06047F-91D5-4A28-B571-8629867F3CCC}|src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.entities\\models\\documentationlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B06047F-91D5-4A28-B571-8629867F3CCC}|src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj|solutionrelative:src\\documentationmanager.entities\\models\\documentationlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|solutionrelative:src\\documentationmanager.webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|solutionrelative:src\\documentationmanager.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.webapi\\controllers\\documentationlinkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|solutionrelative:src\\documentationmanager.webapi\\controllers\\documentationlinkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.webapi\\dtos\\updatelinkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|solutionrelative:src\\documentationmanager.webapi\\dtos\\updatelinkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.webapi\\dtos\\documentationlinkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|solutionrelative:src\\documentationmanager.webapi\\dtos\\documentationlinkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.webapi\\dtos\\createlinkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|solutionrelative:src\\documentationmanager.webapi\\dtos\\createlinkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B06047F-91D5-4A28-B571-8629867F3CCC}|src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.entities\\models\\documentationlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B06047F-91D5-4A28-B571-8629867F3CCC}|src\\DocumentationManager.Entities\\DocumentationManager.Entities.csproj|solutionrelative:src\\documentationmanager.entities\\models\\documentationlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.webapi\\data\\documentationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|solutionrelative:src\\documentationmanager.webapi\\data\\documentationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|solutionrelative:src\\documentationmanager.webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|c:\\dev\\repos\\documentation-manager\\src\\documentationmanager.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F336FC5-F2F1-4BC8-B7B3-717BBB437D89}|src\\DocumentationManager.WebAPI\\DocumentationManager.WebAPI.csproj|solutionrelative:src\\documentationmanager.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +50,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\DocumentationManager.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\appsettings.json",
+              "RelativeToolTip": "src\\DocumentationManager.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-29T13:10:26.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "src\\DocumentationManager.WebAPI\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T17:09:35.908Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -44,53 +86,75 @@
               "RelativeDocumentMoniker": "src\\DocumentationManager.WebAPI\\Properties\\launchSettings.json",
               "ToolTip": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Properties\\launchSettings.json",
               "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-28T17:46:39.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DocumentationLinksController.cs",
               "DocumentMoniker": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Controllers\\DocumentationLinksController.cs",
               "RelativeDocumentMoniker": "src\\DocumentationManager.WebAPI\\Controllers\\DocumentationLinksController.cs",
               "ToolTip": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Controllers\\DocumentationLinksController.cs",
               "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Controllers\\DocumentationLinksController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-28T16:55:36.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "UpdateLinkDto.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Dtos\\UpdateLinkDto.cs",
+              "RelativeDocumentMoniker": "src\\DocumentationManager.WebAPI\\Dtos\\UpdateLinkDto.cs",
+              "ToolTip": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Dtos\\UpdateLinkDto.cs",
+              "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Dtos\\UpdateLinkDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T19:51:10.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentationLinkDto.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Dtos\\DocumentationLinkDto.cs",
+              "RelativeDocumentMoniker": "src\\DocumentationManager.WebAPI\\Dtos\\DocumentationLinkDto.cs",
+              "ToolTip": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Dtos\\DocumentationLinkDto.cs",
+              "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Dtos\\DocumentationLinkDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T22:23:28.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateLinkDto.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Dtos\\CreateLinkDto.cs",
+              "RelativeDocumentMoniker": "src\\DocumentationManager.WebAPI\\Dtos\\CreateLinkDto.cs",
+              "ToolTip": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Dtos\\CreateLinkDto.cs",
+              "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Dtos\\CreateLinkDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T23:43:17.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DocumentationLink.cs",
               "DocumentMoniker": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.Entities\\Models\\DocumentationLink.cs",
               "RelativeDocumentMoniker": "src\\DocumentationManager.Entities\\Models\\DocumentationLink.cs",
               "ToolTip": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.Entities\\Models\\DocumentationLink.cs",
               "RelativeToolTip": "src\\DocumentationManager.Entities\\Models\\DocumentationLink.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:57:51.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:57:51.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "src\\DocumentationManager.WebAPI\\Program.cs",
-              "ToolTip": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Program.cs",
-              "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T17:44:46.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "DocumentationContext.cs",
               "DocumentMoniker": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Data\\DocumentationContext.cs",
               "RelativeDocumentMoniker": "src\\DocumentationManager.WebAPI\\Data\\DocumentationContext.cs",
@@ -98,21 +162,19 @@
               "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Data\\DocumentationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T17:09:40.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T17:09:40.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "src\\DocumentationManager.WebAPI\\Extensions\\ServiceExtensions.cs",
-              "ToolTip": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "src\\DocumentationManager.WebAPI\\Program.cs",
+              "ToolTip": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Program.cs",
+              "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T17:09:35.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T17:44:46.56Z"
             }
           ]
         }

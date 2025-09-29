@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using DocumentationManager.WebAPI.Model;
 using DocumentationManager.WebAPI.Data;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using DocumentationManager.WebAPI.Dtos;
 
 namespace DocumentationManager.WebAPI.Controllers;
 
@@ -22,30 +23,102 @@ public class DocumentationLinksController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetDocumentationLinks()
+    public async Task<ActionResult<List<DocumentationLinkDto>>> GetDocumentationLinks()
     {
-        try
-        {
-            var links = await _context.DocumentationLinks.ToListAsync();
+        var linkDto = await _context.DocumentationLinks
+            .Select(link => new DocumentationLinkDto
+            {
+                Id = link.Id,
+                Title = link.Title,
+                Url = link.Url,
+                Category = link.Category
+            })
+            .ToListAsync();
 
-            return Ok(links);
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(500, $"Ocorreu um erro interno no servidor: {ex.Message}");
-        }
+        return Ok(linkDto);
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<DocumentationLink>> GetDocumentationLinkById(int id)
+    public async Task<ActionResult<DocumentationLinkDto>> GetDocumentationLinkById(int id)
     {
-        var documentationLink = await _context.DocumentationLinks.FindAsync(id);
+        var linkDto = await _context.DocumentationLinks
+            .Where(link => link.Id == id)
+            .Select(link => new DocumentationLinkDto
+            {
+                Id = link.Id,
+                Title = link.Title,
+                Url = link.Url,
+                Category = link.Category
+            })
+            .FirstOrDefaultAsync();
 
-        if(documentationLink == null)
+        if (linkDto == null)
         {
             return NotFound();
         }
 
-        return Ok(documentationLink);
+        return Ok(linkDto);
+    }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateLink(int id, UpdateLinkDto linkDto)
+    {
+        var documentationLink = await _context.DocumentationLinks.FindAsync(id);
+        if (documentationLink == null)
+        {
+            return NotFound();
+        }
+
+        documentationLink.Title = linkDto.Title;
+        documentationLink.Url = linkDto.Url;
+        documentationLink.PersonalNotes = linkDto.PersonalNotes;
+
+        await _context.SaveChangesAsync();
+
+        return NoContent();
+    }
+
+    [HttpPost]
+    public async Task<ActionResult<DocumentationLinkDto>> PostDocumentationLink(CreateLinkDto linkDto)
+    {
+        var documentationLink = new DocumentationLink
+        {
+            Title = linkDto.Title,
+            Url = linkDto.Url,
+            Category = linkDto.Category,
+            PersonalNotes = linkDto.PersonalNotes,
+            DateAdded = DateTime.UtcNow
+        };
+
+        _context.DocumentationLinks.Add(documentationLink);
+        await _context.SaveChangesAsync();
+
+        var createdLinkDto = new DocumentationLinkDto
+        {
+            Id = documentationLink.Id,
+            Title = documentationLink.Title,
+            Url = documentationLink.Url,
+            Category = documentationLink.Category
+        };
+
+        return CreatedAtAction(
+            nameof(GetDocumentationLinkById),
+            new { id = createdLinkDto.Id },
+            createdLinkDto);
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteDocumentationLink(int id)
+    {
+        var documentationLink = await _context.DocumentationLinks.FindAsync(id);
+        if (documentationLink == null)
+        {
+            return NotFound();
+        }
+
+        _context.DocumentationLinks.Remove(documentationLink);
+        await _context.SaveChangesAsync();
+
+        return NoContent();
     }
 }
