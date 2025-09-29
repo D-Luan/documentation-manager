@@ -29,7 +29,7 @@ public class DocumentationLinksController : ControllerBase
             .Select(link => new DocumentationLinkDto
             {
                 Id = link.Id,
-                TechnologyName = link.TechnologyName,
+                Title = link.Title,
                 Url = link.Url,
                 Category = link.Category
             })
@@ -46,7 +46,7 @@ public class DocumentationLinksController : ControllerBase
             .Select(link => new DocumentationLinkDto
             {
                 Id = link.Id,
-                TechnologyName = link.TechnologyName,
+                Title = link.Title,
                 Url = link.Url,
                 Category = link.Category
             })
@@ -69,7 +69,7 @@ public class DocumentationLinksController : ControllerBase
             return NotFound();
         }
 
-        documentationLink.TechnologyName = linkDto.TechnologyName;
+        documentationLink.Title = linkDto.Title;
         documentationLink.Url = linkDto.Url;
         documentationLink.PersonalNotes = linkDto.PersonalNotes;
 
@@ -83,7 +83,7 @@ public class DocumentationLinksController : ControllerBase
     {
         var documentationLink = new DocumentationLink
         {
-            TechnologyName = linkDto.TechnologyName,
+            Title = linkDto.Title,
             Url = linkDto.Url,
             Category = linkDto.Category,
             PersonalNotes = linkDto.PersonalNotes,
@@ -96,7 +96,7 @@ public class DocumentationLinksController : ControllerBase
         var createdLinkDto = new DocumentationLinkDto
         {
             Id = documentationLink.Id,
-            TechnologyName = documentationLink.TechnologyName,
+            Title = documentationLink.Title,
             Url = documentationLink.Url,
             Category = documentationLink.Category
         };

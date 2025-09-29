@@ -62,8 +62,7 @@
               "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Dtos\\CreateLinkDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T23:43:17.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T23:43:17.529Z"
             },
             {
               "$type": "Document",
@@ -73,7 +72,7 @@
               "RelativeDocumentMoniker": "src\\DocumentationManager.WebAPI\\Controllers\\DocumentationLinksController.cs",
               "ToolTip": "C:\\dev\\repos\\documentation-manager\\src\\DocumentationManager.WebAPI\\Controllers\\DocumentationLinksController.cs",
               "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Controllers\\DocumentationLinksController.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAtwHkAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-28T16:55:36.944Z",
               "EditorCaption": ""
@@ -88,8 +87,7 @@
               "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Dtos\\DocumentationLinkDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T22:23:28.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T22:23:28.451Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Data\\DocumentationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T17:09:40.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T17:09:40.056Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "src\\DocumentationManager.Entities\\Models\\DocumentationLink.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:57:51.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:57:51.435Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "src\\DocumentationManager.WebAPI\\Dtos\\UpdateLinkDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:51:10.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T19:51:10.355Z"
             },
             {
               "$type": "Document",
