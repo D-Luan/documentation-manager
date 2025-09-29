@@ -196,7 +196,7 @@
       "CreateLinkDto": {
         "type": "object",
         "properties": {
-          "technologyName": {
+          "title": {
             "type": "string",
             "nullable": true
           },
@@ -222,7 +222,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "technologyName": {
+          "title": {
             "type": "string",
             "nullable": true
           },
@@ -240,7 +240,7 @@
       "UpdateLinkDto": {
         "type": "object",
         "properties": {
-          "technologyName": {
+          "title": {
             "type": "string",
             "nullable": true
           },

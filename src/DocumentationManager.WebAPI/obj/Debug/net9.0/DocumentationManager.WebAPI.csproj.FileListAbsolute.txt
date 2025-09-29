@@ -263,3 +263,4 @@ C:\dev\repos\documentation-manager\src\DocumentationManager.WebAPI\obj\Debug\net
 C:\dev\repos\documentation-manager\src\DocumentationManager.WebAPI\obj\Debug\net9.0\DocumentationManager.WebAPI.pdb
 C:\dev\repos\documentation-manager\src\DocumentationManager.WebAPI\obj\Debug\net9.0\DocumentationManager.WebAPI.genruntimeconfig.cache
 C:\dev\repos\documentation-manager\src\DocumentationManager.WebAPI\obj\Debug\net9.0\ref\DocumentationManager.WebAPI.dll
+C:\dev\repos\documentation-manager\src\DocumentationManager.WebAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
