@@ -25,8 +25,8 @@ public class DocumentationLinksController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<List<DocumentationLinkDto>>> GetDocumentationLinks()
     {
-        var linksDto = await _context.DocumentationLinks
-            .Select(link => new DocumentationLinkDto 
+        var linkDto = await _context.DocumentationLinks
+            .Select(link => new DocumentationLinkDto
             {
                 Id = link.Id,
                 TechnologyName = link.TechnologyName,
@@ -35,13 +35,13 @@ public class DocumentationLinksController : ControllerBase
             })
             .ToListAsync();
 
-        return Ok(linksDto);
+        return Ok(linkDto);
     }
 
     [HttpGet("{id}")]
     public async Task<ActionResult<DocumentationLinkDto>> GetDocumentationLinkById(int id)
     {
-        var linksDto = await _context.DocumentationLinks
+        var linkDto = await _context.DocumentationLinks
             .Where(link => link.Id == id)
             .Select(link => new DocumentationLinkDto
             {
@@ -52,27 +52,71 @@ public class DocumentationLinksController : ControllerBase
             })
             .FirstOrDefaultAsync();
 
-        if (linksDto == null)
+        if (linkDto == null)
         {
             return NotFound();
         }
 
-        return Ok(linksDto);
+        return Ok(linkDto);
     }
 
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateLink(int id, UpdateLinkDto linkDto)
     {
-        var linksDto = await _context.DocumentationLinks.FindAsync(id);
-        if (linksDto == null)
+        var documentationLink = await _context.DocumentationLinks.FindAsync(id);
+        if (documentationLink == null)
         {
             return NotFound();
         }
 
-        linksDto.TechnologyName = linkDto.TechnologyName;
-        linksDto.Url = linkDto.Url;
-        linksDto.PersonalNotes = linkDto.PersonalNotes;
+        documentationLink.TechnologyName = linkDto.TechnologyName;
+        documentationLink.Url = linkDto.Url;
+        documentationLink.PersonalNotes = linkDto.PersonalNotes;
 
+        await _context.SaveChangesAsync();
+
+        return NoContent();
+    }
+
+    [HttpPost]
+    public async Task<ActionResult<DocumentationLinkDto>> PostDocumentationLink(CreateLinkDto linkDto)
+    {
+        var documentationLink = new DocumentationLink
+        {
+            TechnologyName = linkDto.TechnologyName,
+            Url = linkDto.Url,
+            Category = linkDto.Category,
+            PersonalNotes = linkDto.PersonalNotes,
+            DateAdded = DateTime.UtcNow
+        };
+
+        _context.DocumentationLinks.Add(documentationLink);
+        await _context.SaveChangesAsync();
+
+        var createdLinkDto = new DocumentationLinkDto
+        {
+            Id = documentationLink.Id,
+            TechnologyName = documentationLink.TechnologyName,
+            Url = documentationLink.Url,
+            Category = documentationLink.Category
+        };
+
+        return CreatedAtAction(
+            nameof(GetDocumentationLinkById),
+            new { id = createdLinkDto.Id },
+            createdLinkDto);
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteDocumentationLink(int id)
+    {
+        var documentationLink = await _context.DocumentationLinks.FindAsync(id);
+        if (documentationLink == null)
+        {
+            return NotFound();
+        }
+
+        _context.DocumentationLinks.Remove(documentationLink);
         await _context.SaveChangesAsync();
 
         return NoContent();
